@@ -24,7 +24,7 @@ destino, esta será la distancia más corta.
 
 ## Ejecución
 ```bash
-python userdistance.py <username_origen> <username_destino>
+python user_distance.py <username_origen> <username_destino>
 ```
 
 ## Referencias de solución:
