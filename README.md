@@ -4,11 +4,11 @@ La plataforma provee a los desarrolladores de aplicaciones, el siguiente API:
 
  GET /{username}/followers
 ```javascript
-{ “user”: “username”,  “Followers”: [“user1”, “user2”,….. “user n”] }
+{ "user": "username",  "Followers": ["user1", "user2",….. "user n"] }
 ```
 GET /{username}/following
 ```json
-{ “user”: “username”,  “Following”: [“user1”, “user2”,….. “user n”] }
+{ "user": "username",  "Following": ["user1", "user2",….. "user n"] }
 ```
  Implemente un algoritmo en cualquier lenguaje de programación, que calcule la distancia entre 2 usuarios.
 
@@ -21,6 +21,11 @@ Dado: user1 >> user2 >> user3
 1. LLenar un Grafo social de forma exhaustiva consumiendo el API referido 
 1. Ejecutar una búsqueda Breath-First Search en el grafo hasta que se encuentre la primera ocurrencia del usuario de 
 destino, esta será la distancia más corta.
+
+## Ejecución
+```bash
+python userdistance.py <username_origen> <username_destino>
+```
 
 ## Referencias de solución:
 * https://www.python.org/doc/essays/graphs/
