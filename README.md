@@ -7,7 +7,7 @@ La plataforma provee a los desarrolladores de aplicaciones, el siguiente API:
 { "user": "username",  "Followers": ["user1", "user2",….. "user n"] }
 ```
 GET /{username}/following
-```json
+```javascript
 { "user": "username",  "Following": ["user1", "user2",….. "user n"] }
 ```
  Implemente un algoritmo en cualquier lenguaje de programación, que calcule la distancia entre 2 usuarios.
